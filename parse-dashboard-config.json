@@ -1,0 +1,21 @@
+{
+    "apps": [
+        {
+            "serverURL": "https://example.com/your_mountPath",
+            "appId": "your_appId",
+            "masterKey": "your_masterKey",
+            "clientKey": "your_clientKey",
+            "javascriptKey": "your_javascriptKey",
+            "restKey": "your_restKey",
+            "fileKey": "your_fileKey",
+            "appName": "your_appName",
+            "production": true
+        }
+    ],
+    "users": [
+        {
+            "user": "your_name",
+            "pass": "your_pass"
+        }
+    ]
+}

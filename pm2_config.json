@@ -1,0 +1,22 @@
+{
+    "apps": [
+        {
+            "name": "parse_example",
+            "script": "parse-server",
+            "args": "parse-configs/parse_example.json",
+            "watch": [
+                "parse-configs/parse_example.json"
+            ],
+            "merge_logs": true
+        },
+        {
+            "name": "parse-dashboard",
+            "script": "parse-dashboard",
+            "args": "--config parse-dashboard-config.json",
+            "watch": [
+                "parse-dashboard-config.json"
+            ],
+            "merge_logs": true
+        }
+    ]
+}

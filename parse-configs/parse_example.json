@@ -1,0 +1,16 @@
+{
+    "appId": "your_appId",
+    "masterKey": "your_masterKey",
+    "clientKey": "your_clientKey",
+    "javascriptKey": "your_javascriptKey",
+    "restAPIKey": "your_restAPIKey",
+    "fileKey": "your_fileKey",
+    "mountPath": "/your_mountPath",
+    "serverURL": "https://example.com/your_mountPath",
+    "publicServerURL": "https://example.com/your_mountPath",
+    "port": 1340,
+    "logLevel": "info",
+    "maxUploadSize": "128mb",
+    "databaseURI": "mongodb://localhost:27017/your_db",
+    "logsFolder": "./logs"
+}
