@@ -12,7 +12,7 @@
         {
             "name": "parse-dashboard",
             "script": "parse-dashboard",
-            "args": "--config parse-dashboard-config.json",
+            "args": "--config parse-dashboard-config.json --mountPath /parse/",
             "watch": [
                 "parse-dashboard-config.json"
             ],
