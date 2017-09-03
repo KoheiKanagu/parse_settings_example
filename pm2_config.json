@@ -7,6 +7,9 @@
             "watch": [
                 "parse-configs/parse_example.json"
             ],
+            "watch_options": {
+                "usePolling": true
+            },
             "merge_logs": true
         },
         {
