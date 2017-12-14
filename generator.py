@@ -21,7 +21,12 @@ parser.add_argument(
 )
 parser.add_argument(
     "-ps", "--publicServerURL",
-    default="https://example.com/your_mountPath",
+    default="https://example.com/your_parse",
+    type=str
+)
+parser.add_argument(
+    "-s", "--serverURL",
+    default="https://example.com/your_parse",
     type=str
 )
 parser.add_argument(
@@ -66,6 +71,7 @@ results = {
     "fileKey": gen(),
     "mountPath": arg.mountPath,
     "port": arg.port,
+    "serverURL": arg.serverURL,
     "publicServerURL": arg.publicServerURL,
     "databaseURI": arg.databaseURI,
     "logLevel": "info",
