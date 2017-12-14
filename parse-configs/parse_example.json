@@ -12,5 +12,16 @@
     "logLevel": "info",
     "maxUploadSize": "128mb",
     "databaseURI": "mongodb://localhost:27017/your_db",
-    "logsFolder": "./logs"
+    "logsFolder": "./logs",
+    "push": {
+        "android": {
+            "senderId": "sensorId",
+            "apiKey": "apiKey"
+        },
+        "ios": {
+            "pfx": "your/p12/full/path/hoge.p12",
+            "bundleId": "com.example.parse",
+            "production": true
+        }
+    }
 }
